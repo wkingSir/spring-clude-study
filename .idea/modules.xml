@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-ribbon-consumer/eureka-ribbon-consumer.iml" filepath="$PROJECT_DIR$/eureka-ribbon-consumer/eureka-ribbon-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-provider/eureka-server-provider.iml" filepath="$PROJECT_DIR$/eureka-server-provider/eureka-server-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-clude-study.iml" filepath="$PROJECT_DIR$/.idea/spring-clude-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-study-commo/springstudycommo.iml" filepath="$PROJECT_DIR$/spring-study-commo/springstudycommo.iml" />
     </modules>
   </component>
 </project>

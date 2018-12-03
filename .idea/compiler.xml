@@ -9,7 +9,7 @@
         <module name="demo" />
         <module name="eureka-ribbon-consumer" />
         <module name="eureka-server-provider" />
-        <module name="spring-clude-study" />
+        <module name="springstudycommo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +17,7 @@
       <module name="eureka-ribbon-consumer" target="1.8" />
       <module name="eureka-server-provider" target="1.8" />
       <module name="spring-clude-study" target="1.5" />
+      <module name="springstudycommo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

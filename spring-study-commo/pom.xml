@@ -2,17 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring.clude.study</artifactId>
+        <groupId>Spring_Clude</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Spring_Clude</groupId>
-    <artifactId>spring.clude.study</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>spring-study-commo</artifactId>
 
-    <modules>
 
-        <module>eureka-server</module>
-        <module>eureka-server-provider</module>
-        <module>spring-study-commo</module>
-    </modules>
 </project>
