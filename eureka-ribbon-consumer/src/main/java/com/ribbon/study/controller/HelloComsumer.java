@@ -26,10 +26,13 @@ public class HelloComsumer {
     @Autowired
     RestTemplate restTemplate;
 
+    @Autowired
+    private HelloService helloService;
+
     @RequestMapping(value = "/ribbon-server" ,method = RequestMethod.GET)
     public String helloController(){
 
-        return restTemplate.getForEntity("http://HELLO-SERVICE/hello",String.class).getBody();
+        return helloService.hello();
     }
 
     @RequestMapping(value = "/get-hello", method = RequestMethod.GET)
