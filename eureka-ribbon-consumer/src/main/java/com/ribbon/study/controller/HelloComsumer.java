@@ -1,5 +1,6 @@
-package com.ribbon.eurekaribbonconsumer;
+package com.ribbon.study.controller;
 
+import com.ribbon.study.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.ribbon.study.controller;
+package com.ribbon.study.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -17,6 +17,10 @@ public class BookBase implements Serializable {
 
     private String author;
 
+    public BookBase(){
+
+    }
+
     public BookBase(String name, int age, String publisher, String author){
         this.name = name;
         this.age = age;

@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944df173-ddb1-490b-a2da-a22183cea4a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/config/SpringCludeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/service/HelloService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-ribbon-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/EurekaRibbonConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/EurekaRibbonConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/BookConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/BookConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/HelloComsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/HelloComsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-provider/src/main/resources/application-p1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-provider/src/main/resources/application-p1.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-study-commo/src/main/java/com/baijz/bean/BookBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-study-commo/src/main/java/com/baijz/bean/BookBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -36,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/HelloComsumer.java">
+        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/HelloComsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="43" />
+            <state relative-caret-position="1117">
+              <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,57 +39,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/service/HelloService.java">
+        <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="105">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/controller/HelloController.java">
+        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/EurekaRibbonConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="61">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/pom.xml">
+        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/BookConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="149">
+              <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2332">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4092">
+              <caret line="231" column="93" selection-start-line="231" selection-start-column="81" selection-end-line="231" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/EurekaRibbonConsumerApplication.java">
+        <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="220">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-study-commo/src/main/java/com/baijz/bean/BookBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -106,38 +118,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eurekaserverprovider/EurekaServerProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="132">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/context/annotation/ComponentScans.class">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/config/SpringCludeApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="132">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -166,6 +157,8 @@
       <find>PingTask</find>
       <find>nextServerCyclicCounter</find>
       <find>random</find>
+      <find>back-book&quot;</find>
+      <find>back-book</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,27 +177,29 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer2.properties" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer1.properties" />
-        <option value="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eurekaserverprovider/EurekaServerProviderApplication.java" />
         <option value="$PROJECT_DIR$/eureka-server-provider/src/main/resources/application-provider.properties" />
         <option value="$PROJECT_DIR$/eureka-server-provider/src/main/resources/application-p2.properties" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/HelloComsumer.java" />
         <option value="$PROJECT_DIR$/spring-study-common/src/com/baijz/commo/bean/Book.java" />
         <option value="$PROJECT_DIR$/spring-study-commo/src/main/java/com/baijz/bean/Book.java" />
-        <option value="$PROJECT_DIR$/spring-study-commo/src/main/java/com/baijz/bean/BookBase.java" />
         <option value="$PROJECT_DIR$/eureka-server-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/BookController.java" />
         <option value="$PROJECT_DIR$/eureka-server-provider/src/main/resources/application-p1.properties" />
         <option value="$PROJECT_DIR$/eureka-server-provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/HelloController.java" />
         <option value="$PROJECT_DIR$/eureka-ribbon-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/config/SpringBootApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/config/SpringCludeApplication.java" />
         <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/SpringCludeApplication.java" />
         <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eurekaserverprovider/EurekaServerProviderApplication.java" />
         <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/HelloComsumer.java" />
+        <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/config/SpringCludeApplication.java" />
         <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/EurekaRibbonConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-study-commo/src/main/java/com/baijz/bean/BookBase.java" />
+        <option value="$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/BookConsumerController.java" />
+        <option value="$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/BookController.java" />
       </list>
     </option>
   </component>
@@ -276,6 +271,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,16 +322,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-clude-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-clude-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="eurekaribbonconsumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -346,7 +332,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-clude-study" type="b2602c69:ProjectViewProjectNode" />
@@ -356,7 +342,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,7 +353,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -514,13 +500,15 @@
               <item name="spring-clude-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-clude-study" type="462c0819:PsiDirectoryNode" />
               <item name="spring-study-commo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -532,7 +520,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544350180493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544454606244" />
     <property name="last_opened_file_path" value="C:/data/soft/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -544,8 +532,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.ribbon.config" />
       <recent name="com.ribbon.eurekaribbonconsumer" />
+      <recent name="com.ribbon.config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.eureka.provider" />
@@ -636,6 +624,8 @@
       <workItem from="1543843604855" duration="3442000" />
       <workItem from="1544234069653" duration="528000" />
       <workItem from="1544274588635" duration="14312000" />
+      <workItem from="1544352362254" duration="6393000" />
+      <workItem from="1544540871343" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="[基本概念][eureka-server/provider/consumer and some config]">
       <created>1543658565405</created>
@@ -648,12 +638,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37689000" />
+    <option name="totallyTimeSpent" value="45719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38174808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23200513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -664,12 +655,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37601078" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37601078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38679245" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38679245" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32884097" />
@@ -735,53 +726,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="[基本概念][eureka-server/provider/consumer and some config]" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-782">
-          <folding>
-            <element signature="e#0#1869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2375" column="30" selection-start-line="2375" selection-start-column="30" selection-end-line="2375" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-httpclient/2.2.2/ribbon-httpclient-2.2.2.jar!/com/netflix/loadbalancer/PingUrl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IPing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IPingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/TimerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2771,46 +2715,16 @@
               <point x="0.0" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9036233873181445" x="245.5973753759227" y="191.5973753759227" />
+          <settings layout="Hierarchic Group" zoom="0.9036233873181445" x="246.0" y="192.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-study-commo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/resources/application-p1.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -2826,26 +2740,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="1012">
           <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
         </state>
       </provider>
@@ -2857,68 +2757,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eurekaserverprovider/EurekaServerProviderApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="462">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/HelloComsumer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/controller/HelloController.java" />
+    <entry file="file://$PROJECT_DIR$/spring-study-commo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/config/SpringCludeApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="237">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="110">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/test/service/HelloService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="2332">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4092">
+          <caret line="231" column="93" selection-start-line="231" selection-start-column="81" selection-end-line="231" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eurekaserverprovider/EurekaServerProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/HelloComsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/eurekaribbonconsumer/EurekaRibbonConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="61">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-study-commo/src/main/java/com/baijz/bean/BookBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon-consumer/src/main/java/com/ribbon/study/controller/BookConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-provider/src/main/java/com/example/eureka/provider/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
           </folding>
         </state>
       </provider>
