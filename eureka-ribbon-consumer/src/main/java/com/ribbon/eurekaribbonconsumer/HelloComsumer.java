@@ -1,5 +1,6 @@
 package com.ribbon.eurekaribbonconsumer;
 
+import com.baijz.bean.BookBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -11,6 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import javax.servlet.http.HttpServletRequest;
 import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
@@ -78,5 +80,33 @@ public class HelloComsumer {
         URI uri = uriComponents.toUri();
         ResponseEntity<String> responseEntity = restTemplate.getForEntity(uri, String.class);
         return responseEntity.getBody();
+    }
+
+    /**
+     * 获取对象
+     * @return
+     */
+    @RequestMapping(value = "/getBook", method = RequestMethod.GET)
+    public BookBase getBook(){
+        UriComponents uriComponents = UriComponentsBuilder.fromUriString("http://HELLO-SERVICE/provide-book").build().encode();
+        URI uri = uriComponents.toUri();
+        //ResponseEntity<BookBase> responseEntity = restTemplate.getForEntity(uri,BookBase.class);
+        //return responseEntity.getBody();
+        return restTemplate.getForObject(uri,BookBase.class);
+    }
+
+    /**
+     * 通过post获取对象
+     * @return
+     */
+    @RequestMapping(value = "/postBook", method = RequestMethod.GET)
+    public URI getBookByPost(HttpServletRequest request){
+        UriComponents uriComponents = UriComponentsBuilder.fromUriString("http://HELLO-SERVICE/provide-book").build().encode();
+        URI uri = uriComponents.toUri();
+        ResponseEntity<BookBase> responseEntity = restTemplate.postForEntity(uri,"",BookBase.class);
+        //return responseEntity.getBody();
+        //return restTemplate.postForObject("http://HELLO-SERVICE/provide-book",null,BookBase.class);
+        URI uri1 = restTemplate.postForLocation("http://HELLO-SERVICE/provide-book-uri","");//这里返回的是空值
+        return uri1;
     }
 }
