@@ -30,7 +30,7 @@ public class HelloController {
     @Autowired
     private DiscoveryClient client;
 
-    @RequestMapping(value = "/hello" ,method = RequestMethod.GET)
+    @RequestMapping(value = "/hell" ,method = RequestMethod.GET)
     public String index(){
         List<ServiceInstance> instances = client.getInstances("hello-service");
         for (int i = 0; i < instances.size(); i++) {

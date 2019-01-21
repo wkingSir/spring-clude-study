@@ -18,7 +18,7 @@ public class BookBase implements Serializable {
     private String author;
 
     public BookBase(){
-        super();
+
     }
 
     public BookBase(String name, int age, String publisher, String author){
@@ -58,15 +58,5 @@ public class BookBase implements Serializable {
 
     public void setAuthor(String author) {
         this.author = author;
-    }
-
-    @Override
-    public String toString() {
-        return "BookBase{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", publisher='" + publisher + '\'' +
-                ", author='" + author + '\'' +
-                '}';
     }
 }
