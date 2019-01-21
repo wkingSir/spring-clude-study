@@ -59,4 +59,9 @@ public class BookBase implements Serializable {
     public void setAuthor(String author) {
         this.author = author;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

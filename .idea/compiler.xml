@@ -9,15 +9,19 @@
         <module name="demo" />
         <module name="eureka-ribbon-consumer" />
         <module name="eureka-server-provider" />
+        <module name="hystrix-dashboard" />
         <module name="springstudycommo" />
+        <module name="turbine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="eureka-ribbon-consumer" target="1.8" />
       <module name="eureka-server-provider" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="spring-clude-study" target="1.5" />
       <module name="springstudycommo" target="1.5" />
+      <module name="turbine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
